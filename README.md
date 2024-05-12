@@ -1,12 +1,15 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
-**AIM: **
+**AIM:** 
+
  To simulate and synthesis multiplier using Vivado 2023.1.
 
 **APPARATUS REQUIRED:**
+
 Vivado 2023.1
   
 **PROCEDURE:**
+
 STEP:1  1. Open Vivado: Launch Xilinx Vivado software on your computer.
 STEP:2 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".      
 STEP:3 Project Settings: Follow the prompts to set up your project. Specify the project name, location, and select RTL project type.                      
@@ -21,7 +24,7 @@ STEP:9  View Results: After the simulation completes, you can view waveforms, de
 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
-code
+# CODE
 ```
 2 bit multiplier
 module ha(a,b,sum,carry);
@@ -44,14 +47,14 @@ ha adder2(w3,w4,p[2],cout);
 
 endmodule
 ```
-OUTPUT
+# OUTPUT
 
 ![320717410-a39c011e-815a-4a7d-968f-96e71675ff98](https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-3/assets/164841362/40b91854-c06d-4f7d-8287-bcc898d089e8)
 
 **4 Bit Multiplier**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-CODE
+# CODE
 ```
 4 bit multiplier
 module ha(a,b,sum,carry);
@@ -109,7 +112,7 @@ fa r73(w[14],fs[4],fc[5],p[5],fc[6]);
 fa r74(w[15],fc[4],fc[6],p[6],p[7]);
 endmodule
 ```
-OUTPUT  
+# OUTPUT  
 
 ![318351519-ea0da4bf-982b-4df8-9c3e-565b0c7f9efd](https://github.com/KarthikeyanManickam/VLSI-LAB-EXP-3/assets/164841362/d684e2b9-cf66-43b5-9020-085f9c347146)
 
@@ -117,7 +120,8 @@ OUTPUT
 
 
 
-**Result**
+**RESULT:**
+
 Thus the simulation and synthesis multiplier is verified successfully using Vivado 2023.1.
 
 
